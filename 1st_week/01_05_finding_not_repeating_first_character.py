@@ -2,12 +2,7 @@ input = "abadabac"
 
 def find_not_repeating_first_character(string):
     # 이 부분을 채워보세요!
-    for char in string:
-        for check_char in string:
-            if char == check_char:
-                continue
-            else:
-                return char
+
     return "_"
 
 
